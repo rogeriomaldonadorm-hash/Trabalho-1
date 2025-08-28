@@ -1,6 +1,6 @@
 body {
-    background-color:#363636;
-    color: white;
+    background-color:#afa7a7;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
@@ -16,10 +16,11 @@ header .profile{
 
 ul li{
     width: 20%;
-    background: rgb(1, 1, 68);
+    background:rgb(215, 215, 216);
     padding:0.5rem;
     border-radius: 16px;
     margin:  0.5rem 0;
+    list-style: none;
 }
 
 footer{
@@ -28,4 +29,14 @@ footer{
     padding-top: 1rem;
     border-top: 1px solid rgb(158, 135, 3);
     color: rgb(3, 3, 121)
+}
+
+ul li a{
+    color: blue;
+    font-weight: bold;
+    transition: 0,3s;
+
+}
+ul li a:hover{
+    color: green;
 }
